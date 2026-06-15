@@ -10,8 +10,8 @@
         <StackPanel>
             <ListBox x:Name="LogBox" Height="300" Margin="0,5" />
             <StackPanel Orientation="Horizontal">
-                <Button Content="Старт" Click="StartButton_Click" Width="80" Margin="0,0,10,0"/>
-                <Button Content="Стоп" Click="StopButton_Click" Width="80"/>
+                <Button x:Name="StartButton" Content="Старт" Click="StartButton_Click" Width="80" Margin="0,0,10,0"/>
+                <Button x:Name="StopButton" Content="Стоп" Click="StopButton_Click" Width="80" IsEnabled="False"/>
             </StackPanel>
         </StackPanel>
     </Grid>
